@@ -28,6 +28,78 @@ a:hover {
     opacity: 0.7
 }
 
+.button__shop-white {
+    width: 191px;
+    height: 56px;
+    border: solid #fff 1px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.button__shop-black {
+    width: 191px;
+    height: 56px;
+    border: solid #000 1px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.product {
+    max-width: 268px;
+    height: auto;
+    background-color: #F6F6F6;
+    border-radius: 9px;
+    text-align: center;
+    position: relative;
+}
+
+.product__image {
+    max-width: 160px;
+    margin: 72px auto 16px auto;
+}
+
+.product__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.product__price {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.icon__heart {
+    width: 32px;
+    position: absolute;
+    top: 24px;
+    right: 16px;
+}
+
+.button__buy {
+    width: 188px;
+    height: 44px;
+    margin: 0 auto 24px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+}
+
 /* ヘッダー */
 
 .header {
@@ -93,6 +165,185 @@ a:hover {
 
 .header__icon {
     width: 32px;
+}
+
+/* バナー */
+
+.banner {
+    height: 632px;
+    background-color: #211C24;
+}
+
+.banner__wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff
+}
+
+.banner__content {
+    margin-right: 10%;
+}
+
+.banner__subtitle {
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 40%;
+    margin-bottom: 24px;
+}
+
+.banner__title {
+    font-size: 96px;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+
+.text__semibold {
+    font-weight: 600;
+}
+
+.banner__lead {
+    font-size: 18px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 24px;
+}
+
+.banner__image {
+    min-width: 406px;
+}
+
+/* カテゴリー */
+
+.category {
+    padding: 80px 0;
+    height: 352px;
+    background-color: #FAFAFA;
+}
+
+.category__content {
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    max-width: 80px;
+    top: 0px;
+    right: 0px;
+}
+
+.section__title {
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.category__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category__list img {
+    max-width: 160px;
+}
+
+/* ホームメニュー */
+
+.home_menu {
+    max-width: 1120px;
+    margin: 0 auto 56px auto;
+}
+
+.home_menu__title {
+    margin-bottom: 32px;
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.home_menu__wrap {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, auto);
+    gap: 16px;
+}
+
+/* ピックアップ */
+
+.pickup {
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+}
+
+.pickup__wrap {
+    display: flex;
+}
+
+.pickup__content {
+    max-width: 360px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f9 {
+    background-color: #f9f9f9;
+}
+
+.ea {
+    background-color: #eaeaea;
+}
+
+.c2 {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.pickup__content-img {
+    height: 328px;
+    margin-bottom: 36px;
+}
+
+.pickup__content-explanation {
+    margin: 0 32px;
+}
+
+.pickup__title {
+    font-size: 33px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.pickup__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+/* 割引 */
+
+.discounts{
+    max-width: 1120px;
+    margin: 0 auto 56px auto;
+}
+
+.discounts__title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.discounts__wrap{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(1, auto);
+    gap: 16px;
 }
 
 /* フッター */
