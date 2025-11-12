@@ -55,7 +55,7 @@ a:hover {
 }
 
 .product {
-    max-width: 268px;
+    width: auto;
     height: auto;
     background-color: #F6F6F6;
     border-radius: 9px;
@@ -98,6 +98,31 @@ a:hover {
     background-color: #000;
     color: #fff;
     border-radius: 8px;
+}
+
+.header_lower {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header_lower img {
+    width: 6px;
+}
+
+.button__pulldown{
+    width: 256px;
+    height: 40px;
+    padding: 0 16px;
+    border: solid 0.5px #D4D4D4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button__pulldown img{
+    width: 24px;
 }
 
 /* ヘッダー */
@@ -328,21 +353,119 @@ a:hover {
 
 /* 割引 */
 
-.discounts{
+.discounts {
     max-width: 1120px;
     margin: 0 auto 56px auto;
 }
 
-.discounts__title{
+.discounts__title {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 32px;
 }
 
-.discounts__wrap{
+.discounts__wrap {
     display: grid;
     grid-auto-flow: column;
     grid-template-rows: repeat(1, auto);
+    gap: 16px;
+}
+
+/* 商品一覧ページ */
+
+.productspage {
+    max-width: 1120px;
+    margin: 22px auto 56px auto;
+}
+
+.header_lower {
+    margin-bottom: 44px;
+}
+
+.productspage_left__search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+}
+
+.productspage_left__search img{
+    width: 24px;
+}
+
+.productspage_left__search input {
+    padding: 19px 0;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.productspage_left__search input::placeholder {
+    color: #989898;
+}
+
+.productspage_left__search button {
+    margin: 16px 8px 16px 16px;
+    min-width: 24px;
+    cursor: pointer;
+}
+
+.productspage__wrap {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.productspage_left {
+    width: 20%;
+}
+
+.productspage_right {
+    width: 85%;
+}
+
+.productspage_left_title{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productspage_left_title img{
+    width: 24px;
+}
+
+.brand__list{
+    margin: 16px 0;
+}
+
+.brand__list li{
+    margin: 8px 0;
+}
+
+.productspage_right__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.product__menu-wrap {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, auto);
+    gap: 16px;
+    row-gap: 24px;
+}
+
+.other_page{
+    width: 273px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
     gap: 16px;
 }
 
