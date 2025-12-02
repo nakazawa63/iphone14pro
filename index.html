@@ -20,15 +20,15 @@
     <div class="header__logo">
         <img src="images/header_logo.svg" alt="cyberのロゴマーク">
     </div>
-    <form action="#" class="header__search">
-        <button type="submit" aria-label="検索">
+    <form action="#" class="header__search sp__none">
+        <button type="submit" aria-label="検索" class="sp__none">
             <img src="images/search.svg" alt="検索ボタン">
         </button>
-        <label>
+        <label class="sp__none">
             <input type="text" placeholder="Search">
         </label>
     </form>
-    <nav class="header__nav">
+    <nav class="header__nav sp__none">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -36,10 +36,14 @@
             <li><a href="">Blog</a></li>
         </ul>
     </nav>
-    <div class="header__icon_wrap">
+    <div class="header__icon_wrap sp__none">
         <a href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
         <a href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
         <a href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+    </div>
+
+    <div class="burger pc__none">
+        <img src="images/Burger.svg" alt="ハンバーガーメニュー">
     </div>
 </header>
 
@@ -47,9 +51,9 @@
     <div class="banner__wrap">
         <div class="banner__content">
             <p class="banner__subtitle">Pro.Beyond.</p>
-            <h1 class="banner__title">IPhone 14 <span class="text__semibold">Pro</span></h1>
+            <h1 class="banner__title">IPhone 14 <br class="br__sp"><span class="text__semibold">Pro</span></h1>
             <p class="banner__lead">Created to change everything for the better. For everyone</p>
-            <a class="button__shop-black" href="Products.html">Shop Now</a>
+            <a class="button__shop-white" href="Products.html">Shop Now</a>
         </div>
         <div class="banner__image">
             <img src="images/banner_image01.png" alt="iPhone14Proの画像">
@@ -59,8 +63,10 @@
 
 <section class="category">
     <div class="category__content">
-        <p class="section__title">Browse By Category</p>
-        <div class="arrow"><img src="images/arrow.svg" alt="矢印のアイコン"></div>
+        <div class="category__title">
+            <p class="section__title">Browse By Category</p>
+            <div class="arrow"><img src="images/arrow.svg" alt="矢印のアイコン"></div>
+        </div>
         <div class="category__list">
             <a href=""><img src="images/category_icon01.svg" alt="携帯電話のアイコン"></a>
             <a href=""><img src="images/category_icon02.svg" alt="スマートウォッチのアイコン"></a>

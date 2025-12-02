@@ -17,36 +17,40 @@
 </head>
 
 <header class="header">
-  <div class="header__logo">
-    <img src="images/header_logo.svg" alt="cyberのロゴマーク">
-  </div>
-  <form action="#" class="header__search">
-    <button type="submit" aria-label="検索">
-      <img src="images/search.svg" alt="検索ボタン">
-    </button>
-    <label>
-      <input type="text" placeholder="Search">
-    </label>
-  </form>
-  <nav class="header__nav">
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Contact Us</a></li>
-      <li><a href="">Blog</a></li>
-    </ul>
-  </nav>
-  <div class="header__icon_wrap">
-    <a href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
-    <a href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
-    <a href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
-  </div>
+    <div class="header__logo">
+        <img src="images/header_logo.svg" alt="cyberのロゴマーク">
+    </div>
+    <form action="#" class="header__search sp__none">
+        <button type="submit" aria-label="検索" class="sp__none">
+            <img src="images/search.svg" alt="検索ボタン">
+        </button>
+        <label class="sp__none">
+            <input type="text" placeholder="Search">
+        </label>
+    </form>
+    <nav class="header__nav sp__none">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+    </nav>
+    <div class="header__icon_wrap">
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+    </div>
+
+    <div class="burger pc__none">
+        <img src="images/Burger.svg" alt="ハンバーガーメニュー">
+    </div>
 </header>
 
 <body>
   <section class="step2">
     <div class="step">
-      <img src="images/step1.svg" alt="address">
+      <img class="sp__none" src="images/step1.svg" alt="address">
       <img src="images/step2_active.svg" alt="shipping">
       <img src="images/step3.svg" alt="payment">
     </div>
@@ -64,15 +68,15 @@
         <div class="method__content">
           <input type="radio">
           <p class="method__title">$8.50</p>
-          <p class="method__text">Get your delivery as soon as possible</p>
+          <p class="method__text">Get your delivery <br class="br__sp">as soon as possible</p>
         </div>
         <p class="method__date">1 Oct, 2023</p>
       </div>
       <div class="method inactive">
         <div class="method__content">
           <input type="radio">
-          <p class="method__title">Schedule</p>
-          <p class="method__text">Pick a date when you want to get your delivery</p>
+          <p class="method__title">Sched<br class="br__sp">ule</p>
+          <p class="method__text">Pick a date when <br class="br__sp">you want to get <br class="br__sp">your delivery</p>
         </div>
         <p class="method__date">Select Date</p>
       </div>
