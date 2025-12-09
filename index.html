@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="">
     <title>cyber</title>
 </head>
@@ -18,15 +20,15 @@
     <div class="header__logo">
         <img src="images/header_logo.svg" alt="cyberのロゴマーク">
     </div>
-    <form action="#" class="header__search">
-        <button type="submit" aria-label="検索">
+    <form action="#" class="header__search sp__none">
+        <button type="submit" aria-label="検索" class="sp__none">
             <img src="images/search.svg" alt="検索ボタン">
         </button>
-        <label>
+        <label class="sp__none">
             <input type="text" placeholder="Search">
         </label>
     </form>
-    <nav class="header__nav">
+    <nav class="header__nav sp__none">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -35,11 +37,246 @@
         </ul>
     </nav>
     <div class="header__icon_wrap">
-        <a href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
-        <a href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
-        <a href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+    </div>
+
+    <div class="burger pc__none">
+        <img src="images/Burger.svg" alt="ハンバーガーメニュー">
     </div>
 </header>
+
+<section class="banner">
+    <div class="banner__wrap">
+        <div class="banner__content">
+            <p class="banner__subtitle">Pro.Beyond.</p>
+            <h1 class="banner__title">IPhone 14 <br class="br__sp"><span class="text__semibold">Pro</span></h1>
+            <p class="banner__lead">Created to change everything for the better. For everyone</p>
+            <a class="button__shop-white" href="Products.html">Shop Now</a>
+        </div>
+        <div class="banner__image">
+            <img src="images/banner_image01.png" alt="iPhone14Proの画像">
+        </div>
+    </div>
+</section>
+
+<section class="category">
+    <div class="category__content">
+        <div class="category__title">
+            <p class="section__title">Browse By Category</p>
+            <div class="arrow"><img src="images/arrow.svg" alt="矢印のアイコン"></div>
+        </div>
+        <div class="category__list">
+            <a href=""><img src="images/category_icon01.svg" alt="携帯電話のアイコン"></a>
+            <a href=""><img src="images/category_icon02.svg" alt="スマートウォッチのアイコン"></a>
+            <a href=""><img src="images/category_icon03.svg" alt="カメラのアイコン"></a>
+            <a href=""><img src="images/category_icon04.svg" alt="ヘッドフォンのアイコン"></a>
+            <a href=""><img src="images/category_icon05.svg" alt="PCのアイコン"></a>
+            <a href=""><img src="images/category_icon06.svg" alt="ゲーム機のアイコン"></a>
+        </div>
+    </div>
+</section>
+
+<section class="home_menu">
+    <ul class="home_menu__title">
+        <li><a href="">New Arrival</a></li>
+        <li><a href="">Bestseller</a></li>
+        <li><a href="">Featured Products</a></li>
+    </ul>
+    <div class="home_menu__wrap">
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img01.png" alt="iPhone14Proの画像">
+            </div>
+            <p class="product__text">Apple iPhone 14 Pro Max <br>128GB Deep Purple </p>
+            <p class="product__price">$900</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img02.png" alt="カメラの画像">
+            </div>
+            <p class="product__text">Samsung Galaxy Watch6 <br>Classic 47mm Black</p>
+            <p class="product__price">$369</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/pickup_img03.png" alt="AppleWatchの画像">
+            </div>
+            <p class="product__text">Blackmagic Pocket Cinema <br>Camera 6k</p>
+            <p class="product__price">$2535</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img04.png" alt="AirPodsMaxの画像">
+            </div>
+            <p class="product__text">Galaxy Z Fold5 Unlocked | <br>256GB | Phantom Black</p>
+            <p class="product__price">$1799</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img05.png" alt="GalaxyWatch6Classicの画像">
+            </div>
+            <p class="product__text">Apple Watch Series 9 GPS <br>41mm Starlight Aluminium </p>
+            <p class="product__price">$399</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img06.png" alt="GalaxyZFold5Unlockedの画像">
+            </div>
+            <p class="product__text">Galaxy Buds FE<br>Graphite</p>
+            <p class="product__price">$99.99</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img07.png" alt="GalaxyBudsの画像">
+            </div>
+            <p class="product__text">AirPods Max Silver<br>Starlight Aluminium </p>
+            <p class="product__price">$549</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img08.png" alt="AppleiPad9 10.2の画像">
+            </div>
+            <p class="product__text">Apple iPad 9 10.2" 64GB Wi-Fi <br>Silver (MK2L3) 2021</p>
+            <p class="product__price">$398</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="pickup">
+    <div class="pickup__wrap">
+        <div class="pickup__content sp__none">
+            <div class="pickup__content-img">
+                <img src="images/pickup_img01.png" alt="人気商品の画像">
+            </div>
+            <div class="pickup__content-explanation">
+                <p class="pickup__title">Popular Products</p>
+                <p class="pickup__text">iPad combines a magnificent 10.2-inch <br>Retina display, incredible
+                    performance,<br>multitasking and ease of use.</p>
+                <a class="button__shop-black" href="Products.html">Shop Now</a>
+            </div>
+        </div>
+        <div class="pickup__content f9">
+            <div class="pickup__content-img">
+                <img src="images/pickup_img02.png" alt="IpadProの画像">
+            </div>
+            <div class="pickup__content-explanation">
+                <p class="pickup__title">Ipad Pro</p>
+                <p class="pickup__text">iPad combines a magnificent 10.2-inch <br class="br__pc">Retina<br class="br__sp"> display, incredible performance, <br class="br__pc">multitasking<br class="br__sp"> and ease of use.</p>
+                <a class="button__shop-black" href="Products.html">Shop Now</a>
+            </div>
+            <div class="switching_dot pc__none">
+                <img src="images/switching.svg" alt="">
+            </div>
+        </div>
+        <div class="pickup__content ea sp__none">
+            <div class="pickup__content-img">
+                <img src="images/pickup_img03.png" alt="SamsungGalaxy の画像">
+            </div>
+            <div class="pickup__content-explanation">
+                <p class="pickup__title">Samsung Galaxy </p>
+                <p class="pickup__text">iPad combines a magnificent 10.2-inch <br>Retina display, incredible
+                    performance, <br>multitasking and ease of use.</p>
+                <a class="button__shop-black" href="Products.html">Shop Now</a>
+            </div>
+        </div>
+        <div class="pickup__content c2 sp__none">
+            <div class="pickup__content-img">
+                <img src="images/pickup_img04.png" alt="MacbookProの画像">
+            </div>
+            <div class="pickup__content-explanation">
+                <p class="pickup__title">Macbook Pro</p>
+                <p class="pickup__text">iPad combines a magnificent 10.2-inch <br>Retina display, incredible
+                    performance, <br>multitasking and ease of use.</p>
+                <a class="button__shop-black" href="Products.html">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="discounts">
+    <div class="discounts__title">Discounts up to -50%</div>
+    <div class="discounts__wrap">
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img09.png" alt="iPhone14Progoldの画像">
+            </div>
+            <p class="product__text">Apple iPhone 14 Pro 512GB <br>Gold (MQ233)</p>
+            <p class="product__price">$1437</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img07.png" alt="AirPodsMaxの画像">
+            </div>
+            <p class="product__text">AirPods Max Silver<br>Starlight Aluminium </p>
+            <p class="product__price">$549</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img05.png" alt="AppleWatchの画像">
+            </div>
+            <p class="product__text">Apple Watch Series 9 GPS <br>41mm Starlight Aluminium </p>
+            <p class="product__price">$399</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+        <div class="product">
+            <div class="icon__heart">
+                <a href=""><img src="images/heart.svg" alt="いいね"></a>
+            </div>
+            <div class="product__image">
+                <img src="images/product_img10.png" alt="iPhone14Pro1TBgoldの画像">
+            </div>
+            <p class="product__text">Apple iPhone 14 Pro 1TB Gold <br>(MQ2V3)</p>
+            <p class="product__price">$1499</p>
+            <a class="button__buy" href="Product Details Page.html">Buy Now</a>
+        </div>
+    </div>
+</section>
+
 
 <footer class="footer">
     <div class="footer__content">
@@ -50,7 +287,7 @@
                     boutique-studio offers more than</p>
             </div>
             <ul class="services">
-                <li class="footer__text-semibold">aServices</li>
+                <li class="footer__text-semibold">Services</li>
                 <li class="footer__text"><a href="">Bonus program</a></li>
                 <li class="footer__text"><a href="">Gift cards</a></li>
                 <li class="footer__text"><a href="">Credit and payment</a></li>
