@@ -20,15 +20,15 @@
   <div class="header__logo">
     <img src="images/header_logo.svg" alt="cyberのロゴマーク">
   </div>
-  <form action="#" class="header__search">
-    <button type="submit" aria-label="検索">
+  <form action="#" class="header__search sp__none">
+    <button type="submit" aria-label="検索" class="sp__none">
       <img src="images/search.svg" alt="検索ボタン">
     </button>
-    <label>
+    <label class="sp__none">
       <input type="text" placeholder="Search">
     </label>
   </form>
-  <nav class="header__nav">
+  <nav class="header__nav sp__none">
     <ul>
       <li><a href="">Home</a></li>
       <li><a href="">About</a></li>
@@ -37,15 +37,19 @@
     </ul>
   </nav>
   <div class="header__icon_wrap">
-    <a href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
-    <a href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
-    <a href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+    <a class="sp__none" href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
+    <a class="sp__none" href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
+    <a class="sp__none" href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+  </div>
+
+  <div class="burger pc__none">
+    <img src="images/Burger.svg" alt="ハンバーガーメニュー">
   </div>
 </header>
 
 <body>
   <div class="productdetails">
-    <div class="header_lower">
+    <div class="header_lower sp__none">
       <p>Home</p>
       <img src="images/arrow_gray.svg" alt="矢印のアイコン">
       <p>Catalog</p>
@@ -134,61 +138,64 @@
       </div>
     </div>
     <div class="details">
-      <div class="details__wrap">
-        <p class="main_info__maintitle">Details</p>
-        <p>Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is
-          the
-          display. Nothing surprising, because advanced technologies allow you to practically level the display frames
-          and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that
-          in
-          such realities Apple everything is fine with displays. Both critics and mass consumers always praise the
-          quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina
-          panels, which had ProMotion, caused real admiration for many.</p>
-        <div class="screen">
-          <p class="details__subtitle">Screen</p>
-          <div class="details__info">
-            <p>Screen diagonal</p>
-            <p>6.7"</p>
+      <div class="details__wrap-back">
+        <div class="details__wrap">
+          <p class="main_info__maintitle">Details</p>
+          <p>Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is
+            the
+            display. Nothing surprising, because advanced technologies allow you to practically level the display frames
+            and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that
+            in
+            such realities Apple everything is fine with displays. Both critics and mass consumers always praise the
+            quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina
+            panels, which had ProMotion, caused real admiration for many.</p>
+          <div class="screen">
+            <p class="details__subtitle">Screen</p>
+            <div class="details__info">
+              <p>Screen diagonal</p>
+              <p>6.7"</p>
+            </div>
+            <div class="details__info">
+              <p>The screen resolution</p>
+              <p>2796x1290</p>
+            </div>
+            <div class="details__info">
+              <p>The screen refresh rate</p>
+              <p>120 Hz</p>
+            </div>
+            <div class="details__info">
+              <p>The pixel density</p>
+              <p>460 ppi</p>
+            </div>
+            <div class="details__info">
+              <p>Screen type</p>
+              <p>OLED</p>
+            </div>
+            <div class="details__info boder_none">
+              <p>Additionally</p>
+              <p>Dynamic Island<br>Always-On display<br>HDR display<br>True Tone<br>Wide color (P3)</p>
+            </div>
           </div>
-          <div class="details__info">
-            <p>The screen resolution</p>
-            <p>2796x1290</p>
+          <div class="cpu">
+            <p class="details__subtitle">CPU</p>
+            <div class="details__info">
+              <p>CPU</p>
+              <p>A16 Bionic</p>
+            </div>
+            <div class="details__info boder_none">
+              <p>Number of cores</p>
+              <p>6</p>
+            </div>
           </div>
-          <div class="details__info">
-            <p>The screen refresh rate</p>
-            <p>120 Hz</p>
-          </div>
-          <div class="details__info">
-            <p>The pixel density</p>
-            <p>460 ppi</p>
-          </div>
-          <div class="details__info">
-            <p>Screen type</p>
-            <p>OLED</p>
-          </div>
-          <div class="details__info boder_none">
-            <p>Additionally</p>
-            <p>Dynamic Island<br>Always-On display<br>HDR display<br>True Tone<br>Wide color (P3)</p>
-          </div>
+          <a class="button__viewmore" href="">View More
+            <img src="images/expand_more.svg" alt="">
+          </a>
         </div>
-        <div class="cpu">
-          <p class="details__subtitle">CPU</p>
-          <div class="details__info">
-            <p>CPU</p>
-            <p>A16 Bionic</p>
-          </div>
-          <div class="details__info boder_none">
-            <p>Number of cores</p>
-            <p>6</p>
-          </div>
-        </div>
-        <a class="button__viewmore" href="">View More
-          <img src="images/expand_more.svg" alt="">
-        </a>
       </div>
       <div class="reviews">
         <p class="main_info__maintitle">Reviews</p>
-        <img src="images/evaluation01.png" alt="評価">
+        <img class="sp__none" src="images/evaluation01.png" alt="評価">
+        <img class="pc__none" src="images/evaluation01_sp.png" alt="評価">
         <div class="reviews__comment">
           <p>Leave Comment</p>
         </div>
@@ -230,7 +237,9 @@
             </div>
           </div>
         </div>
-        <a class="button__viewmore" href="">View More</a>
+        <a class="button__viewmore" href="">View More
+            <img src="images/expand_more.svg" alt="">
+          </a>
       </div>
     </div>
     <div class="related">
@@ -294,7 +303,7 @@
           boutique-studio offers more than</p>
       </div>
       <ul class="services">
-        <li class="footer__text-semibold">aServices</li>
+        <li class="footer__text-semibold">Services</li>
         <li class="footer__text"><a href="">Bonus program</a></li>
         <li class="footer__text"><a href="">Gift cards</a></li>
         <li class="footer__text"><a href="">Credit and payment</a></li>

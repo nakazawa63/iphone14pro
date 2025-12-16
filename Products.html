@@ -20,15 +20,15 @@
     <div class="header__logo">
         <img src="images/header_logo.svg" alt="cyberのロゴマーク">
     </div>
-    <form action="#" class="header__search">
-        <button type="submit" aria-label="検索">
+    <form action="#" class="header__search sp__none">
+        <button type="submit" aria-label="検索" class="sp__none">
             <img src="images/search.svg" alt="検索ボタン">
         </button>
-        <label>
+        <label class="sp__none">
             <input type="text" placeholder="Search">
         </label>
     </form>
-    <nav class="header__nav">
+    <nav class="header__nav sp__none">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -37,22 +37,36 @@
         </ul>
     </nav>
     <div class="header__icon_wrap">
-        <a href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
-        <a href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
-        <a href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+    </div>
+
+    <div class="burger pc__none">
+        <img src="images/Burger.svg" alt="ハンバーガーメニュー">
     </div>
 </header>
 
 <div class="productspage">
-    <div class="header_lower">
+    <div class="header_lower sp__none">
         <p>Home</p>
         <img src="images/arrow_gray.svg" alt="矢印のアイコン">
         <p>Catalog</p>
         <img src="images/arrow_gray.svg" alt="矢印のアイコン">
         <p>Smartphones</p>
     </div>
+    <div class="header_lower__sp pc__none">
+        <div class="filters">
+            <p>Filters</p>
+            <img src="images/filters.svg" alt="">
+        </div>
+        <div class="byrating">
+            <p>By rating</p>
+            <img src="images/byrating_down.svg" alt="">
+        </div>
+    </div>
     <div class="productspage__wrap">
-        <div class="productspage_left">
+        <div class="productspage_left sp__none">
             <div class="productspage_left_title">
                 <p>Bland</p>
                 <img src="images/expand_less.svg" alt="">
@@ -101,7 +115,7 @@
         <div class="productspage_right">
             <div class="productspage_right__top">
                 <p class="productspage_right">Selected Products:<span class="medium">85</span></p>
-                <div class="button__pulldown">
+                <div class="button__pulldown sp__none">
                     <p>Byrating</p>
                     <img src="images/arrow_pulldown.svg" alt="">
                 </div>
@@ -211,7 +225,7 @@
                         <a href="Product Details Page.html">Buy Now</a>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product sp__none">
                     <div class="icon__heart">
                         <a href=""><img src="images/heart.svg" alt="いいね"></a>
                     </div>

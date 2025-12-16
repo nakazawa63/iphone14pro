@@ -178,6 +178,39 @@ a:hover {
     }
 }
 
+/* 打ち消し */
+
+.pc__none {
+    display: none;
+}
+
+.br__sp {
+    display: none;
+}
+
+.br__pc {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .sp__none {
+        display: none;
+    }
+
+    .pc__none {
+        display: block;
+    }
+
+    .br__sp {
+        display: block;
+    }
+
+    .br__pc {
+        display: block;
+    }
+}
+
 /* ヘッダー */
 
 .header {
@@ -676,6 +709,17 @@ a:hover {
     margin-bottom: 24px;
 }
 
+.productspage_right{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.medium{
+    color: #000;
+    font-size: 20px;
+}
+
 .product__menu-wrap {
     display: grid;
     grid-auto-flow: column;
@@ -690,6 +734,54 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header_lower__sp {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        padding: 0 16px;
+        margin: 45px auto;
+    }
+
+    .productspage__wrap {
+        padding: 0 15.5px;
+        display: flex;
+        gap: 32px;
+    }
+
+    .productspage_right {
+        width: 100%;
+    }
+
+    .filters,
+    .byrating {
+        min-width: 164px;
+        max-width: 328px;
+        height: 56px;
+        padding: 16px;
+        border: solid 0.5px #D4D4D4;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .filters,
+    .byrating img {
+        width: 24px;
+    }
+
+    .filters,
+    .byrating p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .product__menu-wrap {
+        grid-template-rows: repeat(4, auto);
+    }
 }
 
 /* 商品詳細ページ */
@@ -973,6 +1065,115 @@ a:hover {
     grid-auto-flow: column;
     grid-template-rows: repeat(1, auto);
     gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .productdetails {
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .main_info {
+        display: block;
+        gap: 48px;
+        margin-top: 37px;
+    }
+
+    .main_info__image {
+        padding: 0 16px;
+        max-width: 767px;
+        gap: 30px;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+
+    .main_info__image img {
+        max-width: 263px;
+    }
+
+    .image__list img {
+        height: 66px;
+    }
+
+    .main_info__content {
+        max-width: 767px;
+        padding: 0 16px;
+        margin-bottom: 37px;
+    }
+
+    .spec {
+        grid-template-rows: repeat(3, auto);
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+
+    .spec__content {
+        width: auto;
+        height: auto;
+        padding: 16px 8px;
+    }
+
+    .main_info__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .main_info__button-white {
+        width: 767px;
+        height: 56px;
+        min-width: 341px;
+    }
+
+    .main_info__button-black {
+        width: 767px;
+        height: 56px;
+        min-width: 341px;
+    }
+
+    .delivery {
+        justify-content: center;
+    }
+
+    .delivery__content {
+        flex-direction: column;
+    }
+
+    .delivery__content p {
+        text-align: center;
+    }
+
+    .details__wrap {
+        padding: 40px 24px;
+        background-color: #fff;
+    }
+
+    .details__wrap-back {
+        background-color: #FAFAFA;
+        padding: 40px 16px;
+    }
+
+    .reviews {
+        padding: 0 16px;
+        margin-top: 77px;
+    }
+
+    .review__image {
+        margin-top: 8px;
+    }
+
+    .related__wrap {
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .related {
+        max-width: 767px;
+        margin: 77px auto;
+        padding: 0 16px;
+    }
+
 }
 
 /* ショッピングカート */
@@ -1818,37 +2019,4 @@ a:hover {
         margin: 0 12.5px;
     }
 
-}
-
-/* 打ち消し */
-
-.pc__none {
-    display: none;
-}
-
-.br__sp {
-    display: none;
-}
-
-.br__pc {
-    display: none;
-}
-
-@media screen and (max-width: 768px) {
-
-    .sp__none {
-        display: none;
-    }
-
-    .pc__none {
-        display: block;
-    }
-
-    .br__sp {
-        display: block;
-    }
-
-    .br__pc {
-        display: block;
-    }
 }
