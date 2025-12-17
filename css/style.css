@@ -178,38 +178,6 @@ a:hover {
     }
 }
 
-/* 打ち消し */
-
-.pc__none {
-    display: none;
-}
-
-.br__sp {
-    display: none;
-}
-
-.br__pc {
-    display: none;
-}
-
-@media screen and (max-width: 768px) {
-
-    .sp__none {
-        display: none;
-    }
-
-    .pc__none {
-        display: block;
-    }
-
-    .br__sp {
-        display: block;
-    }
-
-    .br__pc {
-        display: block;
-    }
-}
 
 /* ヘッダー */
 
@@ -345,6 +313,7 @@ a:hover {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 0 16px;
     }
 
     .banner__content {
@@ -370,14 +339,10 @@ a:hover {
         margin-bottom: 32px;
     }
 
-    .banner__image {
-        object-fit: cover;
-    }
 
     .banner__image img {
+        width: 100%;
         max-width: 343px;
-        max-height: 239px;
-        object-fit: cover;
     }
 
 }
@@ -437,15 +402,14 @@ a:hover {
 
     .category__list {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 16px;
         justify-content: center;
     }
 
     .category__list img {
-        width: 768px;
-        min-width: 163px;
-        max-width: 326px;
+        width: 100%;
+        max-width: 767px;
     }
 
 }
@@ -583,6 +547,7 @@ a:hover {
 
     .pickup__text {
         text-align: center;
+        color: #909090;
     }
 
     .switching_dot {
@@ -1379,10 +1344,11 @@ a:hover {
         justify-content: flex-start;
         height: 56px;
         position: relative;
+        padding: 16px 120px 16px 16px;
     }
 
     .discount input {
-        width: 200px;
+        width: 100%;
     }
 
     .apply {
@@ -1390,9 +1356,11 @@ a:hover {
         right: 16px;
     }
 
-}
+    .light{
+        color: #545454;
+    }
 
-@media screen and (max-width: 768px) {}
+}
 
 /* ステップ１ */
 
@@ -2019,4 +1987,37 @@ a:hover {
         margin: 0 12.5px;
     }
 
+}
+
+/* 打ち消し */
+
+.pc__none {
+    display: none;
+}
+
+.br__sp {
+    display: none;
+}
+
+.br__pc {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .sp__none {
+        display: none;
+    }
+
+    .pc__none {
+        display: block;
+    }
+
+    .br__sp {
+        display: block;
+    }
+
+    .br__pc {
+        display: block;
+    }
 }
