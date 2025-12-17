@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Apple製品をはじめとした様々な商品を取り扱っています">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="">
+    <title>cyber</title>
+</head>
+
+<header class="header">
+    <div class="header__logo">
+        <img src="images/header_logo.svg" alt="cyberのロゴマーク">
+    </div>
+    <form action="#" class="header__search sp__none">
+        <button type="submit" aria-label="検索" class="sp__none">
+            <img src="images/search.svg" alt="検索ボタン">
+        </button>
+        <label class="sp__none">
+            <input type="text" placeholder="Search">
+        </label>
+    </form>
+    <nav class="header__nav sp__none">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+    </nav>
+    <div class="header__icon_wrap">
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon01.svg" alt="いいね"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon02.svg" alt="カートの中身"></a>
+        <a class="sp__none" href=""><img class="header__icon" src="images/header_icon03.svg" alt="プロフィール"></a>
+    </div>
+
+    <div class="burger pc__none">
+        <img src="images/Burger.svg" alt="ハンバーガーメニュー">
+    </div>
+</header>
+
+<body>
+    <section class="shoppingcart">
+        <p class="shoppingcart__title">Shopping Cart</p>
+        <div class="shoppingcart__content">
+            <div class="shoppingcart__wrap">
+                <div class="product_detail">
+                    <div class="product_detail__product"><img src="images/product_img01.png" alt="IPhone14Proの画像"></div>
+                    <div class="product_detail__mainwrap">
+                        <div class="product_detail__content">
+                            <p class="product_detail__name">Apple iPhone 14 Pro Max<br> 128Gb Deep Purple
+                            </p>
+                            <p class="product_detail__model_number">#25139526913984</p>
+                        </div>
+                        <div class="product_detail__countwrap">
+                            <div class="product_detail__count">
+                                <a class="minus" href=""><img src="images/minus.svg" alt="マイナス"></a>
+                                <a class="count" href="">1</a>
+                                <a class="plus" href=""><img src="images/plus.svg" alt="プラス"></a>
+                            </div>
+                            <div class="product_detail__price">
+                                <p>$1399</p>
+                            </div>
+                            <a class="delete" href=""><img src="images/Close.svg" alt="ばつ"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_detail">
+                    <div class="product_detail__product"><img src="images/product_img07.png" alt="AirPodsMaxの画像"></div>
+                    <div class="product_detail__mainwrap">
+                        <div class="product_detail__content">
+                            <p class="product_detail__name">AirPods Max Silver</p>
+                            <p class="product_detail__model_number">#53459358345</p>
+                        </div>
+                        <div class="product_detail__countwrap">
+                            <div class="product_detail__count">
+                                <a class="minus" href=""><img src="images/minus.svg" alt="マイナス"></a>
+                                <a class="count" href="">1</a>
+                                <a class="plus" href=""><img src="images/plus.svg" alt="プラス"></a>
+                            </div>
+                            <div class="product_detail__price">
+                                <p>$549</p>
+                            </div>
+                            <a class="delete" href=""><img src="images/Close.svg" alt="ばつ"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_detail">
+                    <div class="product_detail__product"><img src="images/product_img05.png" alt="AppleWatchの画像"></div>
+                    <div class="product_detail__mainwrap">
+                        <div class="product_detail__content">
+                            <p class="product_detail__name">Apple Watch Series 9 <br>GPS 41mm Starlight <br>Aluminium
+                            </p>
+                            <p class="product_detail__model_number">#63632324</p>
+                        </div>
+                        <div class="product_detail__countwrap">
+                            <div class="product_detail__count">
+                                <a class="minus" href=""><img src="images/minus.svg" alt="マイナス"></a>
+                                <a class="count" href="">1</a>
+                                <a class="plus" href=""><img src="images/plus.svg" alt="プラス"></a>
+                            </div>
+                            <div class="product_detail__price">
+                                <p>$399</p>
+                            </div>
+                            <a class="delete" href=""><img src="images/Close.svg" alt="ばつ"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shoppingcart__wrap">
+                <div class="ordersummary">
+                    <p class="ordersummary__title">Order Summary</p>
+                    <div class="discount">
+                        <p>Discount code / Promo code</p>
+                        <label>
+                            <input type="text" placeholder="Code">
+                        </label>
+                    </div>
+                    <div class="discount">
+                        <p>Your bonus card number</p>
+                        <label>
+                            <input type="text" placeholder="Enter Card Number">
+                            <a class="apply" href="">Apply</a>
+                        </label>
+                    </div>
+                    <dl class="accounting">
+                        <dt>Subtotal</dt>
+                        <dd>$2347</dd>
+                    </dl>
+                    <dl class="accounting">
+                        <dt class="light">Estimated Tax</dt>
+                        <dd>$50</dd>
+                    </dl>
+                    <dl class="accounting">
+                        <dt class="light">Estimated shipping & Handling</dt>
+                        <dd>$29</dd>
+                    </dl>
+                    <dl class="accounting">
+                        <dt>Total</dt>
+                        <dd>$2426</dd>
+                    </dl>
+                    <a class="ordersummary_button-black" href="step1.html">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__wrap">
+            <div class="company">
+                <img src="images/footer_logo.svg" alt="cyberのロゴマーク">
+                <p class="footer__text">We are a residential interior design firm located in <br>Portland. Our
+                    boutique-studio offers more than</p>
+            </div>
+            <ul class="services">
+                <li class="footer__text-semibold">Services</li>
+                <li class="footer__text"><a href="">Bonus program</a></li>
+                <li class="footer__text"><a href="">Gift cards</a></li>
+                <li class="footer__text"><a href="">Credit and payment</a></li>
+                <li class="footer__text"><a href="">Service contracts</a></li>
+                <li class="footer__text"><a href="">Non-cash account</a></li>
+                <li class="footer__text"><a href="">Payment</a></li>
+            </ul>
+            <ul class="assistance">
+                <li class="footer__text-semibold">Assistance to the buyer</li>
+                <li class="footer__text"><a href="">Find an order</a></li>
+                <li class="footer__text"><a href="">Terms of delivery</a></li>
+                <li class="footer__text"><a href="">Exchange and return of goods</a></li>
+                <li class="footer__text"><a href="">Guarantee</a></li>
+                <li class="footer__text"><a href="">Frequently asked questions</a></li>
+                <li class="footer__text"><a href="">Terms of use of the site</a></li>
+            </ul>
+        </div>
+        <div class="footer__icon_wrap">
+            <a href=""><img class="footer__icon" src="images/footer_icon01.svg" alt="Twitter"></a>
+            <a href=""><img class="footer__icon" src="images/footer_icon02.svg" alt="Facebook"></a>
+            <a href=""><img class="footer__icon" src="images/footer_icon03.svg" alt="TikTok"></a>
+            <a href=""><img class="footer__icon" src="images/footer_icon04.svg" alt="Instagram"></a>
+        </div>
+    </div>
+</footer>
